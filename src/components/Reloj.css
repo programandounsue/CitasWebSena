@@ -1,0 +1,13 @@
+/* Reloj.css */
+
+.reloj-container {
+    position: fixed;
+    top: 10px;
+    right: 20px;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 20px;
+  }
+  

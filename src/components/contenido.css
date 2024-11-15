@@ -1,0 +1,68 @@
+/* src/components/Contenido.css */
+.contenido {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 900px;
+    font-family: 'Arial', sans-serif;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .contenido:hover {
+    transform: scale(1.02);
+  }
+  
+  .contenido .titulo {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .contenido .descripcion {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 15px;
+  }
+  
+  .lista {
+    margin-top: 20px;
+  }
+  
+  .lista ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .lista li {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color 0.3s;
+  }
+  
+  .lista li:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .lista .boton-eliminar {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 3px;
+    transition: background-color 0.3s;
+  }
+  
+  .lista .boton-eliminar:hover {
+    background-color: #e60000;
+  }
+  
